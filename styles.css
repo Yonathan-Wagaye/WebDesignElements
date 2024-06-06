@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header > h1
+{
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Source Code Pro', 'Poppins', 'Courier New', Courier, monospace;
+}
+
+.box-container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px gray solid;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+.box-container > h2 {
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    font-weight: 400;
+    
+}
+
+.color-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+  
+}
+.color-box > p {
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Nunito Sans','Courier New', Courier, monospace;
+}
+
+
+
+.blue {
+    background-color: #2d5dcc;
+    border: 1px #2d5dcc solid;
+    color: white;
+    width: 250px;
+    height: 150px;
+}
+
+.pink {
+    background-color: #d957d9;
+    border: 1px #d957d9 solid;
+    color: black;
+    width: 250px;
+    height: 150px;
+}
+
+.beige {
+    background-color: #efd9ca;
+    border: 1px #efd9ca solid;
+    color: black;
+    width: 250px;
+    height: 150px;
+}
+
+.mint-green {
+    background-color: #4fe0b0;
+    border: 1px #4fe0b0 solid;
+    color: black;
+    width: 250px;
+    height: 150px;
+}
+
+.font-container {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.font-container > h4 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.font-container > p {
+    padding: 5px;
+}
+
+.bold-style {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.source {
+    font-family: 'Source Code Pro', 'Poppins', 'Courier New', Courier, monospace;
+}
+
+.poppins {
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+}
+
+.nunito {
+    font-family: 'Nunito Sans','Courier New', Courier, monospace;
+}
+
+.text-style-container {
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.text-style-container ul {
+    margin-top: 20px;
+}
+
+.text-style-container  li{
+    padding: 8px;
+    margin-left: 30px;
+}
+
+.heading > h1 {
+    font-family:'Nunito Sans','Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.subheading >  h2 {
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.paragraph > p {
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer {
+    
+    height: 125px;
+    width: 100%;
+    border: 1px #2d5dcc solid;
+    margin-top: 50px;
+    background-color: #2d5dcc;
+}
+
+.footer-content 
+{
+    text-align: center;
+    color: white;
+}
+
+.footer-content > p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:  'Poppins', 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.contacts {
+    margin-top: 20px;
+    
+}
+
+.contacts > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Nunito Sans','Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contacts > a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+
+
